@@ -1,0 +1,790 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sankalpa7/ontologies/2019/0/untitled-ontology-30"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sankalpa7/ontologies/2019/0/untitled-ontology-30">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Administrators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Before"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cancelled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canteen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Care"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cleanliness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confirmity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consistency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criminal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dinner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disinfection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dustbins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Early"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edibles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foodquality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fresh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harmony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Help"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hygenic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Late"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lunch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Officers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patrol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Precission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punctuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refreshment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Routine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Running"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sanitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Servant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snacks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staffbehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Steadiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Train"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uniformity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Workers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wright"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yettostart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Having"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Partof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Speed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#are"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Destination"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Trainname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Trainno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Train"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Administrators"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agence"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assistance"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balance"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Before"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancelled"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canteen"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Care"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleanliness"/>
+        <Class IRI="#Train"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirmity"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consistency"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crew"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criminal"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curry"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defence"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delay"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destination"/>
+        <Class IRI="#Train"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinner"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dirt"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disinfection"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dustbins"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Early"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edibles"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etables"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feed"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foodquality"/>
+        <Class IRI="#Train"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fresh"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harmony"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Help"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hygenic"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Late"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lunch"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meals"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neat"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Officers"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathetic"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patrol"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pollution"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Precission"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punctuality"/>
+        <Class IRI="#Train"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurrence"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refreshment"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rice"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Routine"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safety"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sanitation"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <Class IRI="#Train"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sentiment"/>
+        <Class IRI="#Train"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Servant"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slow"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smell"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snacks"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source"/>
+        <Class IRI="#Train"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Staff"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Staffbehavior"/>
+        <Class IRI="#Train"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steadiness"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taste"/>
+        <Class IRI="#Foodquality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theft"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uniformity"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wait"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#Cleanliness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Workers"/>
+        <Class IRI="#Staffbehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wright"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yettostart"/>
+        <Class IRI="#Punctuality"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Administrators"/>
+        <Class IRI="#Agence"/>
+        <Class IRI="#Assistance"/>
+        <Class IRI="#Crew"/>
+        <Class IRI="#Help"/>
+        <Class IRI="#Officers"/>
+        <Class IRI="#Servant"/>
+        <Class IRI="#Staff"/>
+        <Class IRI="#Workers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Balance"/>
+        <Class IRI="#Before"/>
+        <Class IRI="#Cancelled"/>
+        <Class IRI="#Confirmity"/>
+        <Class IRI="#Consistency"/>
+        <Class IRI="#Delay"/>
+        <Class IRI="#Early"/>
+        <Class IRI="#Harmony"/>
+        <Class IRI="#Late"/>
+        <Class IRI="#Precission"/>
+        <Class IRI="#Recurrence"/>
+        <Class IRI="#Routine"/>
+        <Class IRI="#Running"/>
+        <Class IRI="#Slow"/>
+        <Class IRI="#Steadiness"/>
+        <Class IRI="#Time"/>
+        <Class IRI="#Uniformity"/>
+        <Class IRI="#Wait"/>
+        <Class IRI="#Wright"/>
+        <Class IRI="#Yettostart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Breakfast"/>
+        <Class IRI="#Curry"/>
+        <Class IRI="#Dinner"/>
+        <Class IRI="#Edibles"/>
+        <Class IRI="#Etables"/>
+        <Class IRI="#Feed"/>
+        <Class IRI="#Food"/>
+        <Class IRI="#Fresh"/>
+        <Class IRI="#Lunch"/>
+        <Class IRI="#Meals"/>
+        <Class IRI="#Refreshment"/>
+        <Class IRI="#Rice"/>
+        <Class IRI="#Snacks"/>
+        <Class IRI="#Taste"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Canteen"/>
+        <Class IRI="#Dirt"/>
+        <Class IRI="#Disinfection"/>
+        <Class IRI="#Dustbins"/>
+        <Class IRI="#Hygenic"/>
+        <Class IRI="#Neat"/>
+        <Class IRI="#Pathetic"/>
+        <Class IRI="#Pollution"/>
+        <Class IRI="#Sanitation"/>
+        <Class IRI="#Smell"/>
+        <Class IRI="#Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Care"/>
+        <Class IRI="#Criminal"/>
+        <Class IRI="#Defence"/>
+        <Class IRI="#Patrol"/>
+        <Class IRI="#Police"/>
+        <Class IRI="#Safety"/>
+        <Class IRI="#Theft"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Destination"/>
+        <NamedIndividual IRI="#Train"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Train"/>
+        <NamedIndividual IRI="#Train"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Destination"/>
+        <NamedIndividual IRI="#Train"/>
+        <Literal>Bangalore</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Destination"/>
+        <NamedIndividual IRI="#Train"/>
+        <Literal>Hyderabad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Source"/>
+        <NamedIndividual IRI="#Train"/>
+        <Literal>Cochi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Source"/>
+        <NamedIndividual IRI="#Train"/>
+        <Literal>Hyderabad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Trainname"/>
+        <NamedIndividual IRI="#Train"/>
+        <Literal>Venkatadri Express</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Trainno"/>
+        <NamedIndividual IRI="#Train"/>
+        <Literal>Tr123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Trainno"/>
+        <NamedIndividual IRI="#Train"/>
+        <Literal>Tr321</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Contains"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Having"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Partof"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Speed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#are"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Destination"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Source"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Trainname"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Trainno"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Destination"/>
+        <Class IRI="#Train"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Source"/>
+        <Class IRI="#Train"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Trainname"/>
+        <Class IRI="#Train"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Trainno"/>
+        <Class IRI="#Train"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Source"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Train"/>
+                <Variable IRI="a"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Cleanliness"/>
+                <Variable IRI="a"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Staffbehavior"/>
+                <Variable IRI="a"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Sentiment"/>
+                <Variable IRI="a"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Security"/>
+                <Variable IRI="a"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Foodquality"/>
+                <Variable IRI="b"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Staffbehavior"/>
+                <Variable IRI="a"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Sentiment"/>
+                <Variable IRI="a"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
